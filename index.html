@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"> 
+
+    <title>Family Face Recognition Web App</title>
+</head>
+<body>
+    <center>
+    <div id="header">
+    <h2>Family Face Recognition Web App Prototype</h2>
+    <hr>
+    <img class="imgs" src="family.gif" id="one">
+    <img class="imgs" src="family_2.jpg" id="two">
+    <center>
+    <div id="inner_header" class="btn btn-default">
+    <h4>THIS WEB APP HAS BEEN TRAINED TO IDENTIFY ONLY THE FOLLOWING</h4>
+    <p id="p">&#128512 &#128512 &#128512 Myself | Mother | Father &#128512 &#128512 &#128512</p> 
+    </div>
+    <br><br>
+    <div id="grouped" class="btn btn-default">
+        <div id="first">
+            <p>Object:
+            <span id="object"></span></p> 
+            </div>
+            <br>
+            <div id="sec">
+            <p>Accuracy:
+            <span id="accuracy"></span>
+            </p>
+            </div>
+        </div>
+        </div>
+    <div id="footer">
+    Developed By Sharvil A. Pande
+    </div>
+</center>
+<div> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+<img class="background" src="mask_2_image.jpg"> 
+</div>
+</center>
+</body>
+    <script src="main.js"></script>
+</html>
